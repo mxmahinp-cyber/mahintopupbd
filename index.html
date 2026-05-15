@@ -7,12 +7,21 @@
     <meta name="description" content="MahinTopUpBD — বিকাশ, নগদ ও রকেট দিয়ে দ্রুত ও নিরাপদ Free Fire ডায়মন্ড টপ-আপ।" />
     <meta name="keywords" content="MahinTopUpBD, topup, diamond topup, Free Fire, বিকাশ, নগদ, রকেট" />
     <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://mahintopupbd.com/" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 
     <!-- Open Graph -->
     <meta property="og:title" content="MahinTopUpBD — Free Fire Diamond TopUp" />
     <meta property="og:description" content="বিকাশ, নগদ এবং রকেট দিয়ে সহজে ডায়মন্ড টপ-আপ করুন। দ্রুত ডেলিভারি এবং নিরাপদ সার্ভিস।" />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://{YOUR_DOMAIN_OR_GITHUB_PAGES_URL}/" />
+    <meta property="og:url" content="https://mahintopupbd.com/" />
+    <meta property="og:image" content="https://mahintopupbd.com/og-image.png" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="MahinTopUpBD — Free Fire Diamond TopUp" />
+    <meta name="twitter:description" content="বিকাশ, নগদ এবং রকেট দিয়ে সহজে ডায়মন্ড টপ-আপ করুন।" />
+    <meta name="twitter:image" content="https://mahintopupbd.com/og-image.png" />
 
     <!-- Tailwind CDN for quick styling -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -98,10 +107,12 @@
       </footer>
     </div>
 
-    <!-- small script: replace placeholder domain in OG URL for better sharing -->
+    <!-- small script: ensure OG URL is accurate -->
     <script>
-      // Replace {YOUR_DOMAIN_OR_GITHUB_PAGES_URL} with your actual domain after deploy for proper OG URL
-      document.querySelector('meta[property="og:url"]').content = window.location.origin + '/';
+      (function(){
+        var og = document.querySelector('meta[property="og:url"]');
+        if(og) og.content = 'https://mahintopupbd.com/';
+      })();
     </script>
   </body>
 </html>
