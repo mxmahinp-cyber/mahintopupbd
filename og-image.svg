@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1">
+      <stop offset="0" stop-color="#7c3aed"/>
+      <stop offset="1" stop-color="#06b6d4"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="#111827"/>
+  <rect x="40" y="40" width="1120" height="550" rx="28" fill="url(#g)" opacity="0.95"/>
+  <text x="90" y="220" fill="#fff" font-size="64" font-family="Arial, Helvetica, sans-serif" font-weight="700">MahinTopUpBD</text>
+  <text x="90" y="320" fill="#fff" font-size="40" font-family="Arial, Helvetica, sans-serif">বিকাশ, নগদ ও রকেট দিয়ে দ্রুত ও নিরাপদ Top-Up</text>
+  <text x="90" y="420" fill="#fff" font-size="36" font-family="Arial, Helvetica, sans-serif">এখনই টপ-আপ করুন — 01618697487</text>
+</svg>
